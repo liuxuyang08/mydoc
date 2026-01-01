@@ -3,13 +3,13 @@ const { themes } = require('prism-react-renderer');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'IT知识学习网站',
-  tagline: '编程教程学习平台',
+  title: 'Kerrigen Timo Docs',
+  tagline: 'Kerrigan study notebook',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-domain.com',
+  url: 'https://liuxuyang08.github.io',
   // baseUrl  需要改成你的仓库名，如果你启用了GitHub Pages，请改成你的仓库名,默认是/
-  baseUrl: 'mydoc',
+  baseUrl: '/mydoc/',
   // 对于死链接，默认是warn，可以改成其他的选项，比如ignore,throw
   onBrokenLinks: 'warn',
 
