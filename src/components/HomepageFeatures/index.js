@@ -3,33 +3,33 @@ import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 const FeatureList = [
+  // 左侧板块
   {
-    title: 'Easy to Use',
+    title: 'All about Kerrigen Timo',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        TImoliew的个人网站
       </>
     ),
   },
+  // 中间板块
   {
-    title: 'Focus on What Matters',
+    title: 'Study note _Kerrigen Timo',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        一个脱离了低级趣味的终身学习者
       </>
     ),
   },
+  // 右侧板块 (因为你没填，为了排版平衡，我帮你加了个占位，以后想改随时改)
   {
-    title: 'Powered by React',
+    title: 'Coming Soon',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        更多精彩内容正在建设中... 敬请期待！
       </>
     ),
   },
