@@ -46,12 +46,14 @@ const config = {
         title: 'Kerrigen Timo Docs', // 左上角网站标题
         logo: {
           alt: 'My Logo',
-          src: 'img/logo.png', // 这里对应 static/img/logo.png，请确保图片已上传
+          src: 'img/logo.png', // 这里对应 static/img/logo.png
         },
         items: [
           // 左侧链接
           {
-            to: '/docs/jquery/1', // 指向你的 jQuery 笔记
+            // --- 核心修改处 ---
+            // 这里必须填文档头部的 id (jquery-notes)，而不是文件名
+            to: '/docs/jquery/jquery-notes', 
             label: '学习笔记',
             position: 'left',
           },
@@ -77,7 +79,7 @@ const config = {
         darkTheme: themes.nightOwl,
       },
 
-      // 顶部公告栏 (如果不想要可以把下面这段删除)
+      // 顶部公告栏
       announcementBar: {
         id: 'welcome',
         content:
